@@ -25,8 +25,6 @@ app.post("/cadastrar", async (req, res) => {
                 mensagem: "Erro: Usuário não cadastrado!"
             });
         });
-
-    res.send("Página cadastrar")
 });
 
 app.listen(8080, () => {
